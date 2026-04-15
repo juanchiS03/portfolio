@@ -1,0 +1,29 @@
+---
+import Github from "./icons/Github.astro";
+import LinkedIn from "./icons/LinkedIn.astro";
+import Mail from "./icons/Mail.astro";
+---
+
+<div class="flex flex-row gap-4 mb-6 mt-6">
+    <a
+        href="https://www.linkedin.com/in/juan-sánchez-de-corta-098309237"
+        target="_blank"
+        class="flex items-center justify-center bg-blue-500/10 border border-blue-500/30 text-blue-400 h-10 w-10 rounded-full hover:bg-blue-500/20 hover:scale-110 transition-all shadow-[0_0_15px_rgba(59,130,246,0.2)]"
+    >
+        <LinkedIn />
+    </a>
+    <a
+        href="mailto:juansanchezdecorta@gmail.com"
+        target="_blank"
+        class="flex items-center justify-center bg-red-500/10 border border-red-500/30 text-red-400 h-10 w-10 rounded-full hover:bg-red-500/20 hover:scale-110 transition-all shadow-[0_0_15px_rgba(239,68,68,0.2)]"
+    >
+        <Mail />
+    </a>
+    <a
+        href="https://github.com/juanchiS03"
+        target="_blank"
+        class="flex items-center justify-center bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 h-10 w-10 rounded-full hover:bg-yellow-500/20 hover:scale-110 transition-all shadow-[0_0_15px_rgba(239,68,68,0.2)]"
+    >
+        <Github />
+    </a>
+</div>
