@@ -9,13 +9,13 @@ const { date, title, description } = Astro.props;
         <span class="w-2 h-2 bg-white rounded-full"></span>
     </span>
 
-    <time class="block mb-2 text-sm font-mono leading-none text-[#ff8904]"
+    <time class="block mb-2 text-sm font-mono leading-none text-[#ff8904] text-left"
         >{date}</time
     >
-    <h3 class="flex items-center mb-1 text-2xl font-bold text-white font-serif">
+    <h3 class="flex items-center mb-1 text-2xl font-bold text-white font-serif text-left">
         {title}
     </h3>
-    <p class="mb-4 text-base font-normal text-slate-400 max-w-2xl">
+    <p class="mb-4 text-base font-normal text-slate-400 max-w-2xl text-left">
         {description}
     </p>
 </li>

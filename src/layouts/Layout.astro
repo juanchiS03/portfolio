@@ -24,10 +24,11 @@ import Navbar from '../components/Navbar.astro';
     </body>
 </html>
 
-<style>
+<style is:global>
     html, body {
         margin: 0;
         width: 100%;
         min-height: 100%; /* Cambiado a min-height para que crezca con el contenido */
+        scroll-behavior: smooth;
     }
 </style>
